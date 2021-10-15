@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+</head>
+<style>
+    table ,th,td {border: 1px solid black;}
+</style>
+<body>
+    <h1>Student List</h1>
+    <h2><a href="registerstudent.html">Add New Student</a></h2>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Matric No</th>
+            <th>Student's Name</th>
+            <th>Actions</th>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>18DDT21F1002</td>
+            <td>ABESHENE A/P MUNESWARAN</td>
+            <td><a href="edit.html|delete.html">edit|delete</a></td>
+           
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>18DDT21F1005</td>
+            <td>BRENDAN LEE HERLLY</td>
+            <td><a href="edit.html|delete.html">edit|delete</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>18DDT21F1008</td>
+            <td>NUR IZZATI BINTI ABDUL NASIR</td>
+            <td><a href="edit.html|delete.html">edit|delete</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>18DDT21F1011</td>
+            <td>MUHAMMAD NAIM BIN MOHD SOBRI</td>
+            <td><a href="edit.html|delete.html">edit|delete</a></td>
+        </tr>
+       
+    </table>
+    
+    
+</body>
+</html>
